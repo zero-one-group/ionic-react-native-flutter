@@ -1,0 +1,163 @@
+{
+  "root": "apps/profile-ionic",
+  "sourceRoot": "apps/profile-ionic/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:build",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/profile-ionic",
+        "index": "apps/profile-ionic/src/index.html",
+        "baseHref": "/",
+        "main": "apps/profile-ionic/src/main.tsx",
+        "polyfills": "apps/profile-ionic/src/polyfills.ts",
+        "tsConfig": "apps/profile-ionic/tsconfig.app.json",
+        "assets": [
+          "apps/profile-ionic/src/assets",
+          "apps/profile-ionic/src/manifest.json"
+        ],
+        "styles": [
+          "apps/profile-ionic/src/styles.css"
+        ],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/profile-ionic/src/environments/environment.ts",
+              "with": "apps/profile-ionic/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "options": {
+        "buildTarget": "profile-ionic:build",
+        "hmr": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "profile-ionic:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "apps/profile-ionic/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/apps/profile-ionic"
+      ],
+      "options": {
+        "jestConfig": "apps/profile-ionic/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "cap": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "--help"
+      }
+    },
+    "add": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "add",
+        "packageInstall": true
+      },
+      "configurations": {
+        "ios": {
+          "cmd": "add ios"
+        },
+        "android": {
+          "cmd": "add android"
+        }
+      }
+    },
+    "copy": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "copy",
+        "packageInstall": false
+      },
+      "configurations": {
+        "ios": {
+          "cmd": "copy ios"
+        },
+        "android": {
+          "cmd": "copy android"
+        }
+      }
+    },
+    "open": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "open",
+        "packageInstall": false
+      },
+      "configurations": {
+        "ios": {
+          "cmd": "open ios"
+        },
+        "android": {
+          "cmd": "open android"
+        }
+      }
+    },
+    "sync": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "sync",
+        "packageInstall": true
+      },
+      "configurations": {
+        "ios": {
+          "cmd": "sync ios"
+        },
+        "android": {
+          "cmd": "sync android"
+        }
+      }
+    },
+    "update": {
+      "executor": "@nxtend/capacitor:cap",
+      "options": {
+        "cmd": "update",
+        "packageInstall": true
+      },
+      "configurations": {
+        "ios": {
+          "cmd": "update ios"
+        },
+        "android": {
+          "cmd": "update android"
+        }
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "profile-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

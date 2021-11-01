@@ -1,0 +1,235 @@
+.page ion-toolbar {
+  --background: rgb(143, 149, 130) !important;
+  --color: white;
+  --border-style: none;
+  margin: 0 !important;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #8f9582;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.figures {
+  text-align: center;
+  background-color: #8f9582;
+  color: white;
+}
+.figures p,
+.figures h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.profileHeader ion-card-subtitle,
+.profileHeader ion-card-title {
+  --color: white;
+}
+.profileHeader ion-card-title {
+  font-size: 1.3rem;
+}
+.profileHeader ion-card-subtitle {
+  --color: rgb(202, 211, 189);
+}
+
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border: 5px solid rgba(218, 223, 208, 0.4);
+}
+
+.avatarUpload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid rgba(218, 223, 208, 0.4);
+  color: #505050;
+  position: absolute;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  border-radius: 500px;
+  margin-top: -2.2rem;
+  margin-left: 5rem;
+}
+
+.postActions {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  color: #959595;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #dadfd0;
+  background-color: rgba(218, 223, 208, 0.4);
+}
+.postActions ion-icon {
+  font-size: 1.2rem;
+}
+
+.figure {
+  padding: 1rem;
+}
+
+.figure h6 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.figure p {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+.figure:nth-child(1) {
+  background-color: #9da38d;
+}
+
+.figure:nth-child(2) {
+  background-color: #969b8a;
+}
+
+.figure:nth-child(3) {
+  background-color: #878f78;
+}
+
+.post {
+  border-bottom: 1px solid #dbdbdb;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+}
+.post p {
+  font-size: 0.9rem;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.post .postText {
+  color: #6b7061;
+}
+
+.postAvatar {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-right: 1rem;
+  border: 3px solid #dadfd0;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 1rem;
+  color: #bebebe;
+}
+
+.postReactions {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  color: #6b7061;
+}
+.postReactions .postReaction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.postReactions .postReaction ion-icon {
+  margin-right: 0.5rem;
+}
+.postReactions .postReaction p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.page ion-toolbar {
+  --background: rgb(143, 149, 130) !important;
+  --color: white;
+  --border-style: none;
+  margin: 0 !important;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #8f9582;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.figures {
+  text-align: center;
+  background-color: #8f9582;
+  color: white;
+}
+.figures p,
+.figures h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.profileHeader ion-card-subtitle,
+.profileHeader ion-card-title {
+  --color: white;
+}
+.profileHeader ion-card-title {
+  font-size: 1.3rem;
+}
+.profileHeader ion-card-subtitle {
+  --color: rgb(202, 211, 189);
+}
+
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border: 5px solid rgba(218, 223, 208, 0.4);
+}
+
+.avatarUpload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border: 3px solid rgba(218, 223, 208, 0.4);
+  color: #505050;
+  position: absolute;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  border-radius: 500px;
+  margin-top: -2.2rem;
+  margin-left: 5rem;
+}
+
+.postActions {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  color: #959595;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #dadfd0;
+  background-color: rgba(218, 223, 208, 0.4);
+}
+.postActions ion-icon {
+  font-size: 1.2rem;
+}

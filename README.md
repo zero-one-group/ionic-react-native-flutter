@@ -4,6 +4,7 @@ Comparison of Ionic, React Native and Flutter
 
 Table of Contents
 - [Overview](#overview)
+- [Installation](#installation)
 - [Ionic](#ionic)
   - [Pros of Ionic](#pros-of-ionic)
   - [Cons of Ionic](#cons-of-ionic)
@@ -21,6 +22,14 @@ Table of Contents
 
 ## Overview
 The hybrid app development in lately is growing so fast in popularity. There are Ionic, React Native, and Flutter. These technologies share a common vision of creating beautiful, high-performance apps that work everywhere.
+
+In this documentation, we want to show you the comparation of Ionic, React Native, and Flutter in single monorepo. In this repository, there are examples of application for each framework.
+
+We setup this monorepo using [Nx](https://nx.dev/) and we are excited to using this one.
+
+
+## Installation
+Of course, you also can read our documentation of installation [here](docs/INSTALLATION.md)
 
 
 ## Ionic
