@@ -27,6 +27,8 @@ In this documentation, we want to show you the comparation of Ionic, React Nativ
 
 We setup this monorepo using [Nx](https://nx.dev/) and we are excited to using this one.
 
+In this comparation we adapting use case from [Ionic React Hub - Profile UI](https://ionicreacthub.com/ionic-react-profile-ui). Thanks to author for this awesome open source code in ionic.
+
 
 ## Installation
 Of course, you also can read our documentation of installation [here](docs/INSTALLATION.md)
