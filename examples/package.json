@@ -7,7 +7,7 @@
     "build": "yarn nx build",
     "test": "yarn nx test",
     "start:ionic": "yarn nx run profile-ionic:serve",
-    "start:flutter": "yarn nx run profile-flutter"
+    "start:flutter": "yarn nx run profile-flutter:run --verbose"
   },
   "private": true,
   "dependencies": {
