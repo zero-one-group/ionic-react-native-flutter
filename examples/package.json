@@ -6,13 +6,15 @@
     "start": "yarn nx serve",
     "build": "yarn nx build",
     "test": "yarn nx test",
-    "start:ionic": "yarn nx run profile-ionic:serve"
+    "start:ionic": "yarn nx run profile-ionic:serve",
+    "start:flutter": "yarn nx run profile-flutter"
   },
   "private": true,
   "dependencies": {
     "@capacitor/core": "^2.4.5",
     "@ionic/react": "^5.5.2",
     "@ionic/react-router": "^5.5.2",
+    "@nxrocks/nx-flutter": "^3.0.0",
     "@nxtend/ionic-react": "^11.0.3",
     "core-js": "^3.6.5",
     "ionicons": "^5.2.3",
