@@ -1,8 +1,10 @@
 {
   "version": 2,
   "projects": {
+    "profile-flutter": "apps/profile-flutter",
     "profile-ionic": "apps/profile-ionic",
     "profile-ionic-e2e": "apps/profile-ionic-e2e",
-    "profile-flutter": "apps/profile-flutter"
+    "profile-react-native": "apps/profile-react-native",
+    "profile-react-native-e2e": "apps/profile-react-native-e2e"
   }
 }
