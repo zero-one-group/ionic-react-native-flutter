@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "profile-ionic": "apps/profile-ionic",
-    "profile-ionic-e2e": "apps/profile-ionic-e2e"
+    "profile-ionic-e2e": "apps/profile-ionic-e2e",
+    "profile-flutter": "apps/profile-flutter"
   }
 }
