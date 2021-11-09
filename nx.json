@@ -1,7 +1,7 @@
 {
-  "npmScope": "examples",
+  "npmScope": "ionic-react-native-flutter",
   "affected": {
-    "defaultBase": "main"
+    "defaultBase": "master"
   },
   "cli": {
     "defaultCollection": "@nxtend/ionic-react"
