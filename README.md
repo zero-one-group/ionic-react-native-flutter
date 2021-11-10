@@ -8,11 +8,17 @@ Table of Contents
 - [Setup Ionic React](#setup-ionic-react)
 - [Setup Flutter](#setup-flutter)
 - [Setup React Native](#setup-react-native)
-- [How to run applications](#how-to-run-applications)
+- [Running Applications](#running-applications)
+  - [Run Ionic App](#run-ionic-app)
+  - [Run Flutter App](#run-flutter-app)
+  - [Run React Native App](#run-react-native-app)
 
 
 ## Setup NX Workspace
+If you wanna to initiate application similarly to these repository, you can following few steps below. If don't, you can skip to [Running Applications](#running-applications).
+
 To start initiate workspace you can run the following command.
+
 ```bash
 npx create-nx-workspace examples
 ```
@@ -57,24 +63,36 @@ yarn nx g @nrwl/react-native:app profile-react-native
 More details can read at [Nx React Native Documentation](https://github.com/nrwl/nx-react-native)
 
 
-## How to run applications
+## Running Applications
+To running these applications perfectly, you must installed anything environment needed as mentioned above.
+
+Also, since we are building hybrid mobile application. Ensure, you have been installed Node.js correctly.
+
 ```bash
-# Install dependencies
+# Install all dependencies
 yarn
+```
 
-# To run ionic app
+### Run Ionic App
+```bash
 yarn start:ionic
+```
 
-# To run flutter app using command below
-# or simply by press either F5 (Windows) or fn+F5 (Mac) in VSCode (runing your emulator first)
+### Run Flutter App
+You can run with command below or simply press either `F5` (Windows) or `fn+F5` (Mac) in your VSCode (runing your emulator first)
+```bash
 yarn start:flutter
+```
 
-# To run react native app using browser
-start:rn-web
+### Run React Native App
 
-# To run react native app using android emulator
-start:rn-android
+```bash
+# to run react native app in default browser
+yarn start:rn-web
 
-# To run react native app using XCode emulator
-start:rn-ios
+# To run react native app in android emulator
+yarn start:rn-android
+
+# To run react native app in XCode emulator
+yarn start:rn-ios
 ```
