@@ -79,9 +79,17 @@ yarn
 ```
 
 ### Run Ionic App
+You can simply execute this command to run Ionic Application in your default browser.
 ```bash
 yarn start:ionic
 ```
+
+But, if you prefer to run it on your Android emulator, you can running this command:
+```bash
+yarn start:ionic-android
+```
+The command above will opened your Ionic Android codebase in you Android Studio. Then you can run it over there.
+
 
 ### Run Flutter App
 You can run with command below or simply press either `F5` (Windows) or `fn+F5` (Mac) in your VSCode (runing your emulator first)

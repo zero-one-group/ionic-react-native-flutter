@@ -7,6 +7,7 @@
     "build": "yarn nx build",
     "test": "yarn nx test",
     "start:ionic": "yarn nx run profile-ionic:serve",
+    "start:ionic-android": "yarn nx run profile-ionic:open:android",
     "start:flutter": "yarn nx run profile-flutter:run",
     "start:rn-web": "yarn nx start profile-react-native",
     "start:rn-android": "yarn nx run-android profile-react-native",
