@@ -1,3 +1,8 @@
+<p align="left" width="100%">
+    <img src="assets/banner.png" width="1000px" />
+</p>
+
+
 This project was generated using [Nx](https://nx.dev).
 
 > **Nb.** I have not installed nx cli locally, just using `npx` only. So in this Readme doc I will explain like in my local machine.
